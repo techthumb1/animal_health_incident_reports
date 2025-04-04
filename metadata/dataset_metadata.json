@@ -1,0 +1,14 @@
+{
+    "title": "Global Animal Health Incident Reports (WAHIS)",
+    "id": "jasonrobinson1/animal-health-incident-reports",
+    "licenses": [
+      { "name": "CC0-1.0" }
+    ],
+    "resources": [
+      {
+        "path": "data/animal_health_incidents.csv",
+        "description": "Standardized incident reports extracted from WAHIS (World Animal Health Information System)."
+      }
+    ]
+  }
+  

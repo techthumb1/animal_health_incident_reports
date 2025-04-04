@@ -1,0 +1,14 @@
+Column,Type,Description
+report_id,string,Unique identifier for each report
+country,string,Country where the report originated
+region,string,Region or province (if available)
+date_reported,date,Date of report submission
+species,string,Animal species affected (inferred from disease)
+disease,string,Reported disease name
+confirmed_cases,integer,Number of confirmed cases (defaulted to 0)
+deaths,integer,Number of deaths (defaulted to 0)
+outbreak_status,string,Ongoing or Resolved
+notes,string,Reason or notes provided in the original WAHIS entry
+source,string,Original data source URL
+latitude,float,Geographic latitude (if available)
+longitude,float,Geographic longitude (if available)

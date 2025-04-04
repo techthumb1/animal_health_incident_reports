@@ -1,12 +1,30 @@
-# Animal Health Incident Reports
+# Global Animal Health Incident Reports (2005–2025)
 
-This dataset compiles global reports of animal disease outbreaks and veterinary drug-related adverse events. It is designed to support research in zoonotic surveillance, outbreak modeling, veterinary pharmacovigilance, and geospatial epidemiology.
+## A Longitudinal Analysis of Outbreak Trends, Species Vulnerability, and Surveillance Behavior
 
-## Files
+This dataset contains standardized animal disease incident reports submitted to the World Organisation for Animal Health (WAHIS) over a 20-year period. It provides structured insight into:
 
-- `animal_health_incidents.csv`: Structured animal disease incident reports.
-- `animal_drug_adverse_events.csv`: Reported adverse reactions to veterinary medications.
+- Disease frequency and evolution
+- Country-level reporting behavior
+- Affected species distribution
+- Temporal trends in surveillance and outbreak occurrence
 
-## Columns (animal_health_incidents.csv)
+The goal is to help researchers, analysts, and public health stakeholders understand how global animal health systems respond to risk, and where vulnerabilities persist.
 
-- `report_id`, `country`, `region`, `date_reported`, `species`, `disease`, ...
+## Source
+
+Data extracted from: [WAHIS - World Animal Health Information System](https://wahis.woah.org)
+
+## License
+
+This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. You are free to share and adapt the material for any purpose, even commercially, under the following terms:
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## Suggested Use Cases
+
+- Animal outbreak tracking
+- Disease surveillance models
+- Predictive analytics for veterinary health
+- Zoonotic disease risk assessments
+
